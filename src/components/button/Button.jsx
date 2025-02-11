@@ -6,7 +6,7 @@ function Button({title, disabled}) {
     //using disabled as parameter so that it can be omitted and default to false making the default button enabled
     return (
         <button
-            onClick={() => console.log({title})}
+            onClick={() => console.log({title}.title)}
             disabled={disabled}
         >
             {title}
