@@ -1,9 +1,10 @@
 // Product control
-// - shows a red label with text "Best seller" or "New collection"
-// - shows the image of the product
-// - shows the name of the product
-// - shows the price of the product
+// - Shows a red label with text "Best seller" or "New collection"
+// - Shows the image of the product
+// - Shows the name of the product
+// - Shows the price of the product
 
+// helper function to convert the price as number to a price as euro
 import makeEuro from "../../helpers/makeEuro.js";
 
 function Product({labelText, src, name, price}) {

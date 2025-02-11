@@ -3,7 +3,8 @@
 // - can be set to disabled/enabled
 
 function Button({title, disabled}) {
-    //using disabled as parameter so that it can be omitted and default to false making the default button enabled
+    //using disabled as parameter so that it can be omitted
+    // and default to false making the button enabled by default
     return (
         <button
             onClick={() => console.log({title}.title)}
